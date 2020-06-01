@@ -1,0 +1,17 @@
+  
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug build",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}\\src\\index.ts",
+            "smartStep": true,
+            "sourceMaps": true,
+            "outFiles": [
+                "${workspaceRoot}\\dist\\*.js"
+            ]
+        }
+    ]
+}
